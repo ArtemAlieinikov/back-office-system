@@ -27,15 +27,11 @@ export default {
         sortBy: {
             get() {
                 return 'brandId'
-            },
-            set(newValue) {
             }
         },
         sortDesc: {
             get() {
                 return false
-            },
-            set(newValue) {
             }
         },
         inventorySummary() {

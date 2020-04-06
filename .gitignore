@@ -36,7 +36,6 @@ msbuild.wrn
 # Visual Studio 2015
 .vs/
 
-  
 .DS_Store
 node_modules/
 /dist/
@@ -56,5 +55,4 @@ yarn-error.log*
 *.suo
 *.ntvs*
 *.njsproj
-*.sln
 *.sw*
