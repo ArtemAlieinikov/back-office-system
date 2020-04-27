@@ -16,7 +16,7 @@ const store = new Vuex.Store({
     },
     mutations: {
       resetInventorySummaryLoadingState(state){
-        this.state.inverntorySummary.isLoadingInProgress = true;
+        state.inverntorySummary.isLoadingInProgress = true;
       },
       refreshInventorySummary(state, data) {
         this.state.inverntorySummary = {
@@ -25,10 +25,10 @@ const store = new Vuex.Store({
         }
       },
       refreshBrandCreationStatus(state, response) {
-        this.state.brandCreationStatus = response
+        state.brandCreationStatus = response
       },
       resetBrandCreationStatus(state) {
-        this.state.brandCreationStatus = {}
+        state.brandCreationStatus = {}
       },
     },
     actions: {
